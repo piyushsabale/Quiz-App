@@ -1,0 +1,78 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif ;
+}
+body{
+    background-color: rgb(52, 68, 88);
+}
+.card{
+    width: 100%;
+    max-width: 654px;
+    background-color: white;
+    align-items: center;
+    margin: 100px auto 0;
+    padding: 30px 40px 20px;
+    border-radius: 10px;
+    color: rgb(18, 18, 96);
+}
+.ansBtn{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 20px 0 20px;
+}
+.card h1{
+    font-size: 25px;
+    font-weight: 600px;
+    padding-bottom: 30px;
+    border-bottom: 2px solid #333;
+}
+.quiz{
+    padding: 20px 0;
+}
+.quiz h2{
+    font-size: 18px;
+    font-weight: 600px;
+}
+.btn{
+    width: 100%;
+    font-weight: 500;
+    background: #fff;
+    color: #222;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #222;
+    text-align: left;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+.btn:hover:not([disabled]){
+    background: #222;
+    color: #fff;
+    transition: all 0.3s;
+}
+.btn:disabled {
+    cursor: no-drop;
+}
+#nextbtn{
+    background: #4b4747;
+    color: #fff;
+    padding: 10px;
+    margin: 20px auto 0;
+    border-radius: 4px;
+    cursor: pointer;
+    border: 0;
+    width: 120px;
+    font-weight: 500;
+    display: none;
+}
+.correct{
+    background: rgb(87, 200, 87);
+}
+.incorrect{
+    background: rgb(233, 78, 78);
+}
